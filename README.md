@@ -1,4 +1,5 @@
-![pagina](https://github.com/Santiago-Diniz/blogapp/assets/132367474/bab16cbd-ee78-428c-99f2-dbd701a36b19)
+
+![pagina](https://github.com/Santiago-Diniz/blogapp/assets/132367474/5b6ae7d8-fea3-478f-9afe-1a5e982f8834)
 
 Construindo uma página dinâmica com JavaScript e Handlebars
 Introdução:
@@ -9,14 +10,6 @@ JavaScript é uma linguagem de programação que permite adicionar interatividad
 
 Funcionamento básico:
 Primeiro, você cria um template HTML utilizando a sintaxe amigável do Handlebars. Esse template contém marcadores que definem onde os dados serão inseridos dinamicamente. Em seguida, utiliza JavaScript para renderizar esse template com os dados específicos.
-
-Exemplo:
-Considere o seguinte template Handlebars:
-
-/*<div>
-  <h1>{{titulo}}</h1>
-  <p>{{descricao}}</p>
-</div>*/
 
 Em JavaScript, você pode compilar esse template utilizando Handlebars.compile. Depois, passa os dados desejados para o template compilado, gerando o conteúdo HTML final. Por fim, insere esse conteúdo na página.
 
