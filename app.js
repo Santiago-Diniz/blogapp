@@ -128,7 +128,7 @@ app.use('/usuarios', usuarios)
      
 
   // outros
-    const Port = 8089
+    const Port = process.env.Port || 8089
     app.listen(Port, () => {
     console.log("servidor rodando! ")
 })
