@@ -13,10 +13,10 @@ Primeiro, você cria um template HTML utilizando a sintaxe amigável do Handleba
 Exemplo:
 Considere o seguinte template Handlebars:
 
-<div>
+/*<div>
   <h1>{{titulo}}</h1>
   <p>{{descricao}}</p>
-</div>
+</div>*/
 
 Em JavaScript, você pode compilar esse template utilizando Handlebars.compile. Depois, passa os dados desejados para o template compilado, gerando o conteúdo HTML final. Por fim, insere esse conteúdo na página.
 
